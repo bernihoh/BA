@@ -1,0 +1,894 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "__via_default_region_color__",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "face_net_ref"
+        }
+    },
+    "_via_img_metadata": {
+        "seed1518.png1214158": {
+            "filename": "seed1518.png",
+            "size": 1214158,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 381,
+                        "cy": 496
+                    },
+                    "region_attributes": {
+                        "face_net_features": "iris_center_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 641,
+                        "cy": 491
+                    },
+                    "region_attributes": {
+                        "face_net_features": "iris_center_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 421,
+                        "cy": 428
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 392,
+                        "cy": 422
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 360,
+                        "cy": 419
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 327,
+                        "cy": 421
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 298,
+                        "cy": 428
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 582,
+                        "cy": 427
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 609,
+                        "cy": 414
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 639,
+                        "cy": 409
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 669,
+                        "cy": 409
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 699,
+                        "cy": 414
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_brow_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "circle",
+                        "cx": 641,
+                        "cy": 490,
+                        "r": 21.842
+                    },
+                    "region_attributes": {
+                        "face_net_features": "iris_area_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "circle",
+                        "cx": 381,
+                        "cy": 496,
+                        "r": 22.304
+                    },
+                    "region_attributes": {
+                        "face_net_features": "iris_area_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "circle",
+                        "cx": 381,
+                        "cy": 496,
+                        "r": 22
+                    },
+                    "region_attributes": {
+                        "face_net_features": "iris_area_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            441,
+                            431,
+                            415,
+                            401,
+                            387,
+                            379,
+                            369,
+                            359,
+                            346,
+                            335,
+                            326,
+                            322,
+                            330,
+                            344,
+                            360,
+                            381,
+                            415
+                        ],
+                        "all_points_y": [
+                            502,
+                            498,
+                            487,
+                            479,
+                            475,
+                            474,
+                            474,
+                            476,
+                            482,
+                            487,
+                            493,
+                            498,
+                            504,
+                            512,
+                            516,
+                            519,
+                            513
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "inner_eye_area_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            587,
+                            597,
+                            608,
+                            617,
+                            629,
+                            636,
+                            643,
+                            655,
+                            666,
+                            680,
+                            694,
+                            702,
+                            706,
+                            698,
+                            677,
+                            653,
+                            630,
+                            608,
+                            595
+                        ],
+                        "all_points_y": [
+                            503,
+                            496,
+                            487,
+                            479,
+                            472,
+                            468,
+                            468,
+                            468,
+                            470,
+                            475,
+                            482,
+                            489,
+                            494,
+                            501,
+                            511,
+                            516,
+                            515,
+                            512,
+                            507
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "inner_eye_area_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            310,
+                            319,
+                            331,
+                            345,
+                            364,
+                            390,
+                            409,
+                            428,
+                            443,
+                            451,
+                            452,
+                            447,
+                            417,
+                            390,
+                            365,
+                            344,
+                            324,
+                            312
+                        ],
+                        "all_points_y": [
+                            502,
+                            488,
+                            480,
+                            474,
+                            468,
+                            467,
+                            471,
+                            479,
+                            489,
+                            501,
+                            510,
+                            521,
+                            531,
+                            537,
+                            539,
+                            534,
+                            526,
+                            511
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "outer_eye_area_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            577,
+                            583,
+                            602,
+                            624,
+                            643,
+                            659,
+                            681,
+                            699,
+                            713,
+                            721,
+                            718,
+                            708,
+                            695,
+                            671,
+                            645,
+                            623,
+                            595,
+                            586
+                        ],
+                        "all_points_y": [
+                            512,
+                            494,
+                            478,
+                            468,
+                            464,
+                            464,
+                            469,
+                            478,
+                            492,
+                            500,
+                            512,
+                            525,
+                            533,
+                            537,
+                            537,
+                            535,
+                            523,
+                            518
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "outer_eye_area_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            310,
+                            307,
+                            312,
+                            324,
+                            334,
+                            347,
+                            361,
+                            380,
+                            394,
+                            406,
+                            418,
+                            429,
+                            443,
+                            452,
+                            446,
+                            416,
+                            391,
+                            365,
+                            344,
+                            325,
+                            312
+                        ],
+                        "all_points_y": [
+                            502,
+                            595,
+                            612,
+                            625,
+                            630,
+                            633,
+                            632,
+                            626,
+                            619,
+                            610,
+                            597,
+                            580,
+                            548,
+                            510,
+                            521,
+                            531,
+                            536,
+                            539,
+                            535,
+                            527,
+                            512
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "cheek_area_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            728,
+                            720,
+                            708,
+                            695,
+                            675,
+                            653,
+                            629,
+                            604,
+                            594,
+                            581,
+                            577,
+                            595,
+                            622,
+                            643,
+                            673,
+                            697,
+                            709,
+                            718,
+                            721
+                        ],
+                        "all_points_y": [
+                            574,
+                            600,
+                            624,
+                            638,
+                            644,
+                            643,
+                            627,
+                            601,
+                            577,
+                            533,
+                            513,
+                            524,
+                            534,
+                            537,
+                            536,
+                            532,
+                            526,
+                            512,
+                            500
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "cheek_area_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 510,
+                        "cy": 495
+                    },
+                    "region_attributes": {
+                        "face_net_features": "eye_bridge_point"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 322,
+                        "cy": 498
+                    },
+                    "region_attributes": {
+                        "face_net_features": "inner_eye_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 441,
+                        "cy": 502
+                    },
+                    "region_attributes": {
+                        "face_net_features": "inner_eye_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 706,
+                        "cy": 494
+                    },
+                    "region_attributes": {
+                        "face_net_features": "inner_eye_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 587,
+                        "cy": 503
+                    },
+                    "region_attributes": {
+                        "face_net_features": "inner_eye_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 452,
+                        "cy": 510
+                    },
+                    "region_attributes": {
+                        "face_net_features": "outer_eye_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 310,
+                        "cy": 502
+                    },
+                    "region_attributes": {
+                        "face_net_features": "outer_eye_point_array_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 721,
+                        "cy": 500
+                    },
+                    "region_attributes": {
+                        "face_net_features": "outer_eye_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 577,
+                        "cy": 512
+                    },
+                    "region_attributes": {
+                        "face_net_features": "outer_eye_point_array_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 675,
+                        "cy": 644
+                    },
+                    "region_attributes": {
+                        "face_net_features": "cheek_point_r"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 347,
+                        "cy": 633
+                    },
+                    "region_attributes": {
+                        "face_net_features": "cheek_point_l"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 430,
+                        "cy": 632
+                    },
+                    "region_attributes": {
+                        "face_net_features": "nose_tip_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 513,
+                        "cy": 624
+                    },
+                    "region_attributes": {
+                        "face_net_features": "nose_tip_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 596,
+                        "cy": 633
+                    },
+                    "region_attributes": {
+                        "face_net_features": "nose_tip_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            523,
+                            503,
+                            493,
+                            480,
+                            471,
+                            471,
+                            493,
+                            512,
+                            531,
+                            550,
+                            554,
+                            546,
+                            532
+                        ],
+                        "all_points_y": [
+                            669,
+                            668,
+                            659,
+                            641,
+                            619,
+                            594,
+                            574,
+                            568,
+                            576,
+                            593,
+                            617,
+                            640,
+                            661
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "nose_tip_area"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            455,
+                            494,
+                            513,
+                            531,
+                            568,
+                            585,
+                            598,
+                            594,
+                            589,
+                            582,
+                            556,
+                            522,
+                            502,
+                            457,
+                            437,
+                            431,
+                            428,
+                            441
+                        ],
+                        "all_points_y": [
+                            599,
+                            573,
+                            568,
+                            575,
+                            596,
+                            612,
+                            632,
+                            641,
+                            651,
+                            660,
+                            670,
+                            678,
+                            677,
+                            661,
+                            651,
+                            639,
+                            630,
+                            612
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "nose_area"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            381,
+                            412,
+                            440,
+                            472,
+                            484,
+                            497,
+                            516,
+                            530,
+                            549,
+                            568,
+                            588,
+                            625,
+                            645,
+                            660,
+                            650,
+                            623,
+                            602,
+                            570,
+                            538,
+                            502,
+                            462,
+                            442,
+                            420,
+                            400,
+                            381,
+                            373
+                        ],
+                        "all_points_y": [
+                            716,
+                            712,
+                            708,
+                            708,
+                            707,
+                            710,
+                            713,
+                            713,
+                            710,
+                            710,
+                            711,
+                            717,
+                            717,
+                            719,
+                            744,
+                            766,
+                            781,
+                            800,
+                            810,
+                            812,
+                            805,
+                            795,
+                            774,
+                            753,
+                            729,
+                            718
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "mouth_area"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            504,
+                            481,
+                            459,
+                            448,
+                            445,
+                            457,
+                            471,
+                            488,
+                            504,
+                            521,
+                            542,
+                            556,
+                            560,
+                            552,
+                            528,
+                            515
+                        ],
+                        "all_points_y": [
+                            835,
+                            841,
+                            850,
+                            863,
+                            882,
+                            908,
+                            921,
+                            918,
+                            918,
+                            919,
+                            913,
+                            903,
+                            884,
+                            862,
+                            841,
+                            837
+                        ]
+                    },
+                    "region_attributes": {
+                        "face_net_features": "chin_area"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 504,
+                        "cy": 835
+                    },
+                    "region_attributes": {
+                        "face_net_features": "chin_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 445,
+                        "cy": 882
+                    },
+                    "region_attributes": {
+                        "face_net_features": "chin_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 560,
+                        "cy": 884
+                    },
+                    "region_attributes": {
+                        "face_net_features": "chin_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 373,
+                        "cy": 718
+                    },
+                    "region_attributes": {
+                        "face_net_features": "mouth_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 660,
+                        "cy": 719
+                    },
+                    "region_attributes": {
+                        "face_net_features": "mouth_point_array"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "point",
+                        "cx": 514,
+                        "cy": 744
+                    },
+                    "region_attributes": {
+                        "face_net_features": "mouth_point_array"
+                    }
+                }
+            ],
+            "file_attributes": {}
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "face_net_features": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        },
+        "file": {}
+    }
+}
